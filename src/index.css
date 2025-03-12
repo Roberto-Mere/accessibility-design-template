@@ -1,1 +1,8 @@
 @import 'tailwindcss';
+
+:root {
+  /* 1rem === 10px */
+  font-size: 62.5%;
+  font-family: 'Outfit', 'Helvetica', 'Arial', 'sans-serif';
+  color: #111111;
+}
