@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Spacing */
+  --spacing: 1px;
+
+  /* Font Size */
+  --text-base: 1.4rem;
+  --text-large: 1.8rem;
+  --leading-large: 2.8rem;
+
+  /* Colors */
+  --color-black: #111111;
+  --color-dark-green: #3a6150;
+  --color-dark-green-faded: #3a6150b2;
+}
+
+:root {
+  /* 1rem === 10px */
+  font-size: 62.5%;
+  font-family: 'Outfit', 'Helvetica', 'Arial', 'sans-serif';
+  color: #111111;
+}
