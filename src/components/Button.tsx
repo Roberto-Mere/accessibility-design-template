@@ -7,7 +7,7 @@ export default function Button({ Content }: Props) {
 
   return (
     <button
-      className={`bg-dark-green rounded-sm ${isText ? 'px-24 py-12' : 'rounded-l-none p-8'}`}
+      className={`bg-dark-green text-large cursor-pointer rounded-sm text-white ${isText ? 'px-48 py-12' : 'rounded-l-none p-8'}`}
     >
       {isText ? Content : <Content />}
     </button>
