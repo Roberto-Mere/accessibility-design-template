@@ -11,10 +11,8 @@ export default defineConfig({
     svgr({
       svgrOptions: {
         exportType: 'default',
-        svgo: false,
-        titleProp: true,
       },
-      include: '**/*.svg',
+      include: '**/*.svg?react',
     }),
   ],
 });

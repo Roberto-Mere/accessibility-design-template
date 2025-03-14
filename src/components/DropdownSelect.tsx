@@ -1,4 +1,4 @@
-import ArrowDown from '../assets/svg/arrow-down.svg';
+import ArrowDown from '../assets/svg/arrow-down.svg?react';
 
 interface Props {
   Name: React.FC;
