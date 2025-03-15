@@ -1,4 +1,4 @@
-import Button from '../../../components/Button';
+import Button from '../../../components/input/Button';
 
 export default function HeroHeading() {
   return (
