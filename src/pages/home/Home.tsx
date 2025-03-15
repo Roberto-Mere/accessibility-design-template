@@ -1,5 +1,6 @@
 import Header from '../../layout/header/Header';
 import AboutUs from './about-us/AboutUs';
+import ContactUs from './contact-us/ContactUs';
 import Hero from './hero/Hero';
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <main>
         <Hero />
         <AboutUs />
+        <ContactUs />
       </main>
     </>
   );
