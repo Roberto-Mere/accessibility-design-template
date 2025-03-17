@@ -1,4 +1,5 @@
 import HeroHeading from './HeroHeading';
+import heroImage from '../../../assets/images/hero.jpeg';
 
 export default function Hero() {
   return (
@@ -8,7 +9,7 @@ export default function Hero() {
     >
       <HeroHeading />
       <img
-        src="src/assets/images/hero.jpeg"
+        src={heroImage}
         alt="Damp large jungle leaves"
         className="h-[45vw] flex-1/2 object-cover"
       />

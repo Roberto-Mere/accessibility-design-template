@@ -54,4 +54,10 @@
     outline: 2.5px auto #3a6150;
     outline-offset: 2px;
   }
+
+  .side-background {
+    background-image: url('./assets//images/contact-us.jpeg');
+    background-size: cover;
+    background-position: right;
+  }
 }

@@ -1,4 +1,4 @@
-import { sideDetails } from '../../sideDetails';
+import { sideDetails } from './sideDetails';
 import Detail from './Detail';
 
 export default function DetailsList() {
