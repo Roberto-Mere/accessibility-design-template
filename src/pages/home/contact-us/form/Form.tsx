@@ -12,12 +12,14 @@ export default function ContactUsForm() {
           label="First Name"
           type="text"
           placeholder="John"
+          required
         />
         <TextInput
           id="last-name"
           label="Last Name"
           type="text"
           placeholder="Doe"
+          required
         />
       </div>
       <div className="grid grid-cols-2 gap-20">
@@ -26,6 +28,7 @@ export default function ContactUsForm() {
           label="Email"
           type="email"
           placeholder="example@gmail.com"
+          required
         />
         <TextInput
           id="phone-number"
@@ -44,6 +47,7 @@ export default function ContactUsForm() {
         label="Message"
         type="textarea"
         placeholder="Text here..."
+        required
       />
       <MultipleOptionInput
         type="checkbox"

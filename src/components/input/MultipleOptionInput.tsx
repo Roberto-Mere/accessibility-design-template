@@ -16,10 +16,11 @@ export default function MultipleOptionInput({ type, name, options }: Props) {
             name={name}
             id={opt.id}
             value={opt.value}
-            className="accent-dark-green h-20 w-20"
+            required={opt.required}
+            className="accent-dark-green multiple-option-validity h-20 w-20"
           />
           <label htmlFor={opt.id} className="text-base">
-            {opt.label}
+            {`${opt.required ? '* ' : ''}${opt.label}`}
           </label>
         </div>
       ))}
