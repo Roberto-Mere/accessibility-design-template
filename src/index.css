@@ -40,4 +40,18 @@
     outline: 5px auto Highlight;
     outline: 5px auto -webkit-focus-ring-color;
   }
+
+  .form-input:user-invalid {
+    border: 2.5px #3a6150 solid;
+  }
+
+  .multiple-option-validity:user-invalid + label,
+  label:has(+ .form-input:user-invalid) {
+    color: #3a6150;
+  }
+
+  .multiple-option-validity:user-invalid:not(:focus) {
+    outline: 2.5px auto #3a6150;
+    outline-offset: 2px;
+  }
 }
