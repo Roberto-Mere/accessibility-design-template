@@ -6,23 +6,31 @@ interface Props {
   label: string;
   type: 'text' | 'email' | 'tel' | 'textarea';
   placeholder: string;
+  required?: boolean;
 }
 
-export default function TextInput({ id, label, type, placeholder }: Props) {
+export default function TextInput({
+  id,
+  label,
+  type,
+  placeholder,
+  required,
+}: Props) {
   return (
     <div className="flex flex-col gap-8">
       <label htmlFor={id} className="text-base">
-        {label}
+        {`${required ? '* ' : ''}${label}`}
       </label>
       {type === 'tel' ? (
         <PhoneInput placeholder={placeholder} id={id} />
       ) : type === 'textarea' ? (
-        <TextArea placeholder={placeholder} id={id} />
+        <TextArea placeholder={placeholder} required={required} id={id} />
       ) : (
         <input
           id={id}
           type={type}
           placeholder={placeholder}
+          required={required}
           className="placeholder:text-black-faded form-input grow text-base"
         />
       )}
