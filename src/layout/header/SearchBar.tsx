@@ -1,5 +1,5 @@
-import Button from '../../components/Button';
-import SearchIcon from '../../assets/svg/search.svg';
+import Button from '../../components/input/Button';
+import SearchIcon from '../../assets/svg/search.svg?react';
 
 export default function SearchBar() {
   return (

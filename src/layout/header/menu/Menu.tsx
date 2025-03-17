@@ -1,4 +1,4 @@
-import DropdownSelect from '../../../components/DropdownSelect';
+import DropdownSelect from '../../../components/input/DropdownSelect';
 import MenuItem from './MenuItem';
 import { menuItems } from './menuItems';
 

@@ -13,9 +13,11 @@
 
   /* Colors */
   --color-black: #111111;
+  --color-black-faded: #11111180;
+  --color-light-gray: #f9f9f9;
   --color-dark-green: #3a6150;
   --color-dark-green-faded: #3a6150b2;
-  --color-light-gray: #f9f9f9;
+  --color-red-error: #3a6150;
 }
 
 :root {
@@ -23,4 +25,17 @@
   font-size: 62.5%;
   font-family: 'Outfit', 'Helvetica', 'Arial', 'sans-serif';
   color: #111111;
+}
+
+@layer components {
+  .form-input {
+    border-radius: 3px;
+    border: 1px #111111 solid;
+    padding: 8px 12px;
+  }
+
+  .form-input:focus-within {
+    outline: 5px auto Highlight;
+    outline: 5px auto -webkit-focus-ring-color;
+  }
 }
