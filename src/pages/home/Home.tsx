@@ -1,3 +1,4 @@
+import Footer from '../../layout/footer/Footer';
 import Header from '../../layout/header/Header';
 import AboutUs from './about-us/AboutUs';
 import ContactUs from './contact-us/ContactUs';
@@ -12,6 +13,7 @@ export default function Home() {
         <AboutUs />
         <ContactUs />
       </main>
+      <Footer />
     </>
   );
 }
