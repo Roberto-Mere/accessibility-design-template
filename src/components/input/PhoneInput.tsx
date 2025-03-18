@@ -9,7 +9,9 @@ export default function Phone({ id, placeholder }: Props) {
   return (
     <div className="form-input flex flex-1/2 items-center overflow-hidden text-base">
       <DropdownSelect Name="+52" />
-      <span className="text-black-faded text-large ml-2">|</span>
+      <span className="text-black-faded text-large ml-2" aria-hidden>
+        |
+      </span>
       <input
         id={id}
         type="tel"
