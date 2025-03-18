@@ -4,6 +4,7 @@ export default function SubscribeInput() {
   return (
     <div className="flex items-end gap-32">
       <input
+        id="subscribe"
         type="email"
         placeholder="example@gmail.com"
         className="placeholder:text-black-faded text-large grow border-b border-b-black pb-12"
