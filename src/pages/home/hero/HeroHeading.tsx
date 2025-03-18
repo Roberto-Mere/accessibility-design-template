@@ -2,7 +2,7 @@ import Button from '../../../components/input/Button';
 
 export default function HeroHeading() {
   return (
-    <header className="flex-1/2">
+    <header className="flex-1/2 max-sm:order-2">
       <h1
         id="hero-heading"
         className="text-dark-green mb-36 text-3xl font-bold"
