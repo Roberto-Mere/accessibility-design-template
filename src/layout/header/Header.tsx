@@ -4,7 +4,7 @@ import SearchBar from './SearchBar';
 
 export default function Header() {
   return (
-    <header className="mx-64 my-16 flex items-center">
+    <header className="max-xs:mx-16 mx-64 my-16 flex flex-wrap items-center gap-y-24 max-sm:mx-32">
       <Logo />
       <Menu />
       <SearchBar />
