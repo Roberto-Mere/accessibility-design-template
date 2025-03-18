@@ -9,7 +9,7 @@ export default function SearchBar() {
         placeholder="Search this site"
         className="placeholder:text-dark-green-faded text-large border-dark-green leading-large min-w-xl border-2 px-16 py-8"
       />
-      <Button Content={() => <SearchIcon />} />
+      <Button Content={() => <SearchIcon />} ariaLabel="Search" />
     </>
   );
 }
