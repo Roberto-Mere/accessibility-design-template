@@ -3,6 +3,8 @@ interface Props {
   description: string;
   image: string;
   imageAlt: string;
+  srcSet: string;
+  sizes: string;
 }
 
 export default function AboutUsCard({
