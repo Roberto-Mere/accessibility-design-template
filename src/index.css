@@ -39,6 +39,10 @@
   :root {
     font-size: 50%;
   }
+
+  @theme {
+    --text-base: 1.5rem;
+  }
 }
 
 @media (min-width: 1500px) {
