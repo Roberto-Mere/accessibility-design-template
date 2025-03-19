@@ -3,7 +3,7 @@ import { cardsDetails } from './cardsDetails';
 
 export default function AboutUs() {
   return (
-    <section className="flex gap-16 p-64">
+    <section className="max-xs:p-16 flex gap-16 p-64 max-md:flex-wrap max-sm:p-32">
       {cardsDetails.map((card) => (
         <AboutUsCard
           key={card.title}
