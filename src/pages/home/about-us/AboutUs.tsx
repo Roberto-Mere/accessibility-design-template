@@ -11,6 +11,8 @@ export default function AboutUs() {
           description={card.description}
           image={card.image}
           imageAlt={card.title}
+          srcSet={card.srcSet}
+          sizes={card.sizes}
         />
       ))}
     </section>
