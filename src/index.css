@@ -20,6 +20,12 @@
   --color-dark-green: #3a6150;
   --color-dark-green-faded: #3a6150b2;
   --color-red-error: #3a6150;
+
+  /* Media */
+  --breakpoint-xs: 500px;
+  --breakpoint-sm: 750px;
+  --breakpoint-md: 1000px;
+  --breakpoint-lg: 1500px;
 }
 
 :root {
@@ -27,6 +33,18 @@
   font-size: 62.5%;
   font-family: 'Outfit', 'Helvetica', 'Arial', 'sans-serif';
   color: #111111;
+}
+
+@media (max-width: 1000px) {
+  :root {
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 1500px) {
+  :root {
+    font-size: 75%;
+  }
 }
 
 @layer components {

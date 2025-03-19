@@ -4,10 +4,10 @@ import { menuItems } from './menuItems';
 
 export default function Menu() {
   return (
-    <nav className="mr-auto ml-72">
-      <ul className="flex items-center gap-16">
+    <nav className="ml-72 max-md:order-3 max-md:ml-0 max-md:w-full">
+      <ul className="flex items-center gap-16 max-md:gap-8">
         {menuItems.map((item, index) => (
-          <li key={item.name} className="flex items-center gap-16">
+          <li key={item.name} className="flex items-center gap-16 text-center">
             {index !== 0 && (
               <div aria-hidden className="h-16 w-1 bg-black"></div>
             )}

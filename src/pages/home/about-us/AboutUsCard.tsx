@@ -12,7 +12,7 @@ export default function AboutUsCard({
   imageAlt,
 }: Props) {
   return (
-    <article className="bg-dark-green flex h-[30rem] p-24 pb-36">
+    <article className="bg-dark-green flex h-[29rem] p-24 pb-36 max-md:h-[26rem] max-md:w-full">
       <img
         src={image}
         alt={imageAlt}
@@ -20,10 +20,12 @@ export default function AboutUsCard({
       />
       <div className="ml-16 flex-2/3 text-white">
         <h2 className="text-large mb-12 font-bold">{title}</h2>
-        <p className="mb-24 grow text-base">{description}</p>
+        <p className="max-h-[64%] grow overflow-clip text-base max-md:max-h-[47%]">
+          {description}
+        </p>
         <a
           href="/"
-          className="text-base underline"
+          className="mt-24 block h-max text-base underline"
           aria-label={`Learn more about ${title}`}
         >
           Learn more about →

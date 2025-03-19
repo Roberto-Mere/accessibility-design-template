@@ -3,7 +3,7 @@ import { checkBoxOptions, radioOptions } from './multipleOptions';
 import MultipleOptionInput from '../../../../components/input/MultipleOptionInput';
 import Button from '../../../../components/input/Button';
 
-export default function ContactUsForm() {
+export default function Form() {
   return (
     <form className="flex flex-2/3 flex-col gap-24 px-20 py-48">
       <div className="grid grid-cols-2 gap-20">
