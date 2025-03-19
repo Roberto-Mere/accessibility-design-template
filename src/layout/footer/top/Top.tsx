@@ -5,7 +5,7 @@ import PaymentOptions from './PaymentOptions.tsx';
 
 export default function Top() {
   return (
-    <section className="flex justify-between px-64 py-24">
+    <section className="max-xs:px-16 max-xs:py-12 max-xs:flex-wrap flex justify-between gap-32 px-64 py-24 max-sm:px-32">
       <Subscribe />
       <Links />
       <div className="flex flex-col gap-40">

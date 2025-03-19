@@ -2,7 +2,7 @@ import Button from '../../../../components/input/Button';
 
 export default function SubscribeInput() {
   return (
-    <div className="flex items-end gap-32">
+    <div className="flex flex-wrap items-end gap-32">
       <input
         id="subscribe"
         type="email"
