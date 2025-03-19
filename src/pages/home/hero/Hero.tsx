@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       aria-labelledby="hero-heading"
-      className="bg-light-gray max-xs:px-16 flex items-center gap-20 px-64 pt-24 pb-64 max-sm:flex-col max-sm:px-32"
+      className="bg-light-gray max-xs:px-16 flex items-center gap-20 px-64 pt-24 pb-64 max-sm:flex-col max-sm:px-32 max-sm:pb-32"
     >
       <HeroHeading />
       <img
