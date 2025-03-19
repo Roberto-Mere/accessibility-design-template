@@ -14,7 +14,7 @@ export default function AboutUsCard({
   imageAlt,
 }: Props) {
   return (
-    <article className="bg-dark-green flex h-[29rem] p-24 pb-36 max-md:h-[26rem] max-md:w-full">
+    <article className="bg-dark-green flex h-[30rem] p-24 pb-36 max-md:h-[26rem] max-md:w-full">
       <img
         src={image}
         alt={imageAlt}
